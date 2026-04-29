@@ -1,0 +1,102 @@
+body {
+    margin:0;
+    font-family: 'Segoe UI', sans-serif;
+    display:flex;
+    background: linear-gradient(120deg, #f6d365, #fda085);
+}
+
+.sidebar {
+    width:240px;
+    background:#2c3e50;
+    color:white;
+    height:100vh;
+    padding:20px;
+}
+
+.sidebar h2 {
+    text-align:center;
+}
+
+.sidebar button {
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:none;
+    background:rgba(255,255,255,0.1);
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.sidebar button:hover {
+    background:#e67e22;
+}
+
+
+.main {
+    flex: 1;
+    padding: 25px;
+    overflow-y: auto;  
+    height: 100vh;
+}
+
+
+.section {
+    display:none;
+    padding:20px;
+    border-radius:12px;
+    background: rgba(255,255,255,0.25);
+    backdrop-filter: blur(10px);
+}
+
+.active {
+    display:block;
+}
+
+input, select {
+    padding:10px;
+    margin:8px;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+button.action {
+    padding:10px 15px;
+    background:#e67e22;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+button.delete {
+    background:red;
+    color:white;
+    border:none;
+    padding:6px 10px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+table {
+    width:100%;
+    margin-top:15px;
+    border-collapse: collapse;
+    background:white;
+}
+
+th {
+    background:#e67e22;
+    color:white;
+}
+
+th, td {
+    padding:10px;
+    text-align:center;
+    border-bottom:1px solid #ddd;
+}
+
+#graph {
+    margin-top:20px;
+    background:white;
+}
